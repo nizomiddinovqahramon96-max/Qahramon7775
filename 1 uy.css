@@ -1,0 +1,67 @@
+* {padding: 0px;
+margin: 0px;
+}
+
+body {background-color: aqua; background-color: blueviolet 50%;}
+
+.container {
+    padding: 100px 100px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card {
+    box-shadow: 15px 15px 15px gray ;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 90;
+    justify-content: space-between;
+    background-color: white;
+    display: block;
+}
+
+img {width: 390px;
+display: flex;}
+
+h3 p {color: gray;}
+
+.kok button {background-color: rgba(45, 132, 246, 0.897);
+    border-radius: 200px;
+    color: white;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+    margin: 0px;
+    border: solid white;
+}
+
+.sariq button {
+    background-color: chocolate;
+    border-radius: 200px;
+    color: white;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    border: solid white;
+}
+
+.qizil button {
+    background-color: red;
+    border-radius: 200px;
+    color: white;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    border: solid white;
+}
+button img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba (0,0,0,0.15);
+}
